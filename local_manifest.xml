@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <remote  name="Ebin"
+                fetch="https://github.com/arulebin" />
+
+        <project path="device/xiaomi/rosy" name="device_xiaomi_rosy-1" remote="Ebin" revision="eleven-plus" clone-depth="1" />
+        <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="Ebin" revision="11" clone-depth="1" />
+        <project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="Ebin" revision="eleven" clone-depth="1" />
+
+</manifest>
