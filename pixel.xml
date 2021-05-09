@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-        <remote name="pixel"
-          fetch="https://github.com/PixelExperience"
-          revision="eleven" />
-
-    <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="pixel" />
-
-</manifest>
