@@ -4,7 +4,6 @@
           fetch="https://github.com/PixelExperience"
           revision="eleven" />
 
-  <remove-project name="vendor/codeaurora/telephony" /> 
-  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="pixel" />
+    <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="pixel" />
 
 </manifest>
