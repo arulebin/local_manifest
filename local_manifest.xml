@@ -4,13 +4,6 @@
         <remote  name="Ebin"
           fetch="https://github.com/arulebin" />
 
-        <remote name="pixel"
-          fetch="https://github.com/PixelExperience"
-          revision="eleven" />
-
-        <!-- codeaurora -->
-        <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="pixel" revision="eleven" clone-depth="1" />
-
         <!-- Device tree -->
         <project path="device/xiaomi/rosy" name="device_xiaomi_rosy-1" remote="Ebin" revision="eleven-plus" clone-depth="1" />
         <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="Ebin" revision="11" clone-depth="1" />
