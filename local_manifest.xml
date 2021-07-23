@@ -9,13 +9,12 @@
           fetch="https://github.com/mvaisakh" />
 
         <!-- Device tree -->
-        <project path="device/xiaomi/rosy" name="device_xiaomi_rosy" remote="Ebin" revision="dot" clone-depth="1" />
+        <project path="device/xiaomi/rosy" name="device_xiaomi_rosy" remote="Ebin" revision="styx" clone-depth="1" />
         <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="pulkit" revision="eleven" clone-depth="1" />
         <project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="pulkit" revision="eleven" clone-depth="1" />
 
-        <!-- system/sepolicy -->
-        <remove-project name="android_system_sepolicy" />
-        <project path="system/sepolicy" name="system_sepolicy" remote="Ebin" revision="dot11" clone-depth="1" />
+        <!-- HALS -->
+        <remove-project name="android_hardware_qcom_audio" />
 
         <!-- gcc -->
         <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="gcc" revision="gcc-master" clone-depth="1" />
