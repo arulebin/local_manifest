@@ -5,6 +5,8 @@
           fetch="https://github.com/arulebin" />
         <remote  name="pulkit"
           fetch="https://github.com/Pulkit077" />
+        <remote name="gcc"
+          fetch="https://github.com/mvaisakh" />
 
         <!-- Device tree -->
         <project path="device/xiaomi/rosy" name="device_xiaomi_rosy" remote="Ebin" revision="dot" clone-depth="1" />
@@ -14,4 +16,9 @@
         <!-- system/sepolicy -->
         <remove-project name="android_system_sepolicy" />
         <project path="system/sepolicy" name="system_sepolicy" remote="Ebin" revision="dot11" clone-depth="1" />
+
+        <!-- gcc -->
+        <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="gcc" revision="gcc-master" clone-depth="1" />
+        <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="gcc" revision="gcc-master" clone-depth="1" />
+
 </manifest>
