@@ -14,7 +14,9 @@
         <project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="pulkit" revision="eleven" clone-depth="1" />
 
         <!-- HALS -->
-        <remove-project name="android_hardware_qcom_audio" />
+        <remove-project name="hardware_qcom_audio" />
+        <remove-project name="hardware_qcom_display" />
+        <remove-project name="hardware_qcom_media" />             
 
         <!-- gcc -->
         <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="gcc" revision="gcc-master" clone-depth="1" />
